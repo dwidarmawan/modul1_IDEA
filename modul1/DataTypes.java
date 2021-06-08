@@ -25,6 +25,7 @@ public class DataTypes{
   nilaiAbjad = inputan.next().charAt(0);
   System.out.print("Input Tampan : ");
   tampan = inputan.nextBoolean();
+  namaBelakang = JOptionPane.showInputDialog("Input nama belakang : ");
 
   System.out.println("========== Fase output ==========");
   System.out.println("Nama depan : " + namaDepan);
