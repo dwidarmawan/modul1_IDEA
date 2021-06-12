@@ -2,8 +2,8 @@ package model;
 
 import java.util.Date;
 
-public class mahasiswa {
+public class Mahasiswa {
     String npm;
     String nama;
-    String tanggallahir;
+    Date tanggalLahir;
 }
